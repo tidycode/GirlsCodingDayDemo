@@ -1,7 +1,7 @@
 // Contact Form Scripts
 
 $(function() {
-consonle.log(456);
+console.log(456);
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
